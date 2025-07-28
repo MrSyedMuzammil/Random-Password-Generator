@@ -139,3 +139,58 @@ hr {
   color: yellow;
   text-shadow: 0 0 5px #1a1a3b;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    height: auto;
+    min-height: 80vh;
+    gap: 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .sub-title {
+    font-size: 0.9rem;
+  }
+
+  .password-btn {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* For mobile phones (e.g., screen width up to 480px) */
+@media (max-width: 480px) {
+  body {
+    align-items: flex-start;
+    padding-top: 2rem;
+  }
+
+  .container {
+    width: 95%;
+    gap: 1.5rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .sub-title {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  .pasw-container {
+    gap: 0.75rem;
+  }
+
+  .box {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
