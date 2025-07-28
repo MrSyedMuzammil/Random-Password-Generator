@@ -132,7 +132,11 @@ hr {
   border-radius: 0.2rem;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  /* display: none; */
+  font-size: 0.9rem;
+  /* height: 2rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .highlighted {
@@ -173,11 +177,13 @@ hr {
     width: 95%;
     gap: 1.5rem;
     padding: 1rem 0.5rem;
+    min-height: 50vh;
   }
 
   .title {
     font-size: 1.8rem;
     text-align: center;
+    margin-top: 0.2rem;
   }
 
   .sub-title {
@@ -190,7 +196,6 @@ hr {
   }
 
   .box {
-    padding: 0.5rem;
     font-size: 0.9rem;
   }
 }
